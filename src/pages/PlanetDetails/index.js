@@ -128,7 +128,7 @@ const PlanetDetails = ({ getData }) => {
                                         alt={info.name}
                                         className='img-rounded'
                                     />
-                                    <Link to={`/characters/${id}`}>{info.name}</Link>
+                                    <Link to={`/character/${id}`}>{info.name}</Link>
                                     <InfoWrapper>
                                         <PlanetInfoRow name='Gender' value={info.gender} />
                                     </InfoWrapper>

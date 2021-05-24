@@ -21,7 +21,6 @@ const loadCharactersFailure = () => ({
     type: FETCH_CHARACTERS_FAILURE,
 });
 
-//????? page
 export const loadCharacters = (page = 2) => async (dispatch) => {
     dispatch(loadCharactersStarted());
 
